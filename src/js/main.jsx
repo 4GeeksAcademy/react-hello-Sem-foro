@@ -1,5 +1,6 @@
-import React from 'react'
+
 import ReactDOM from 'react-dom/client'
+import React from "react";
 
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,10 +10,12 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import Lighted from './components/Lighted';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+
+const root =ReactDOM.createRoot(document.getElementById('root'))
+root.render(<Lighted/>);
+
+
+
+ 
