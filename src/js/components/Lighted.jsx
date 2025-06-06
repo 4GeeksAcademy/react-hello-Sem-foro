@@ -129,7 +129,7 @@ const Lighted = () => {
           </button>
         )}
       </div>
-      <button className="btn btn-success">by Nicolás Pasik</button>
+      <button className="btn btn-success">by NicolasQuest</button>
     </div>
   );
 };
